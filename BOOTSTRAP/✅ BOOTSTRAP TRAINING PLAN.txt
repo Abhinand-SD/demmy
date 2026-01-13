@@ -1,0 +1,96 @@
+✅ BOOTSTRAP TRAINING PLAN 
+
+
+Class 1 — Introduction to Bootstrap 5
+
+• What is Bootstrap? Why use it?
+• CDN vs Local installation
+• Container, container-fluid
+• Grid system basics (rows, columns)
+• Breakpoints (sm, md, lg, xl, xxl)
+• Typography utilities
+• Colors utilities
+• Margin & Padding utility classes
+
+
+
+
+Class 2 — Bootstrap Layouts & Grid Advanced
+
+• Grid nesting
+• Column ordering
+• Auto-layout columns
+• Responsive grid examples
+• Display utilities (d-flex, d-none, d-block…)
+• Flexbox utilities
+• Alignment utilities (justify-content, align-items…)
+• Float utilities
+
+
+
+
+
+Class 3 — Bootstrap Components — Part 1
+
+• Buttons & button groups
+• Alerts
+• Badges
+• Cards
+• Images & responsive images
+• Navbars (expand, collapse, responsiveness)
+• Breadcrumbs
+
+
+
+
+Class 4 — Bootstrap Components — Part 2
+
+• Carousel
+• Accordion
+• Collapse
+• Offcanvas
+• Modals
+• Pagination
+• Progress bars
+• Tables & table styling
+
+
+
+
+
+Class 5 — Bootstrap Forms
+
+• Form layouts (form-control, form-group)
+• Checkboxes, radios, switches
+• Input groups (icons, addons)
+• Floating labels
+• Validation classes (is-valid, is-invalid)
+
+
+
+
+
+Class 6 — Bootstrap Utilities & Customization
+
+• Shadows
+• Borders
+• Rounded utilities
+• Position utilities
+• Sizing utilities
+• Spacing utilities
+• Custom CSS with Bootstrap
+• Icons (Bootstrap Icons)
+
+
+
+
+
+Class 7 — Bootstrap Responsive Layout Project
+
+Mini Project:
+✔ Build a fully responsive Business Landing Page using Bootstrap
+• Navbar
+• Hero section
+• Services section
+• Testimonials
+• Footer

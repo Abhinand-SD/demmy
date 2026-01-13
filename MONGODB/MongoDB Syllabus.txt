@@ -1,0 +1,388 @@
+
+MongoDB Syllabus
+
+
+🔹 WEEK 1 
+
+
+📅 Class 1: Introduction to MongoDB & NoSQL Databases
+
+Topics Covered
+
+What is a Database?
+
+SQL vs NoSQL (MySQL vs MongoDB – use cases)
+
+Why MongoDB for MERN Stack?
+
+MongoDB Architecture (Client, Server, Collections)
+
+BSON vs JSON
+
+Core Concepts: Documents, Collections, Databases
+
+Hands-On
+
+Install MongoDB Server
+
+Install MongoDB Compass
+
+Connect to local MongoDB instance
+
+Learning Outcome
+✔ Learners clearly understand why MongoDB is chosen for modern web applications
+
+
+
+
+
+
+📅 Class 2: MongoDB Compass & Basic Data Operations
+
+Topics Covered
+
+MongoDB Compass UI overview
+
+Creating databases and collections
+
+Manual document insertion
+
+Viewing and filtering documents
+
+Hands-On
+
+Create database: school
+
+Create collection: students
+
+Insert multiple student records
+
+Apply basic filters
+
+Assignment
+
+Insert at least 10 documents with varied fields and values
+
+
+
+
+
+📅 Class 3: CRUD Operations – Create & Read
+
+Topics Covered
+
+insertOne(), insertMany()
+
+find(), findOne()
+
+Query filtering
+
+Field projection (select specific fields)
+
+Hands-On
+
+Perform operations using:
+
+MongoDB Compass
+
+MongoDB Shell
+
+Compare GUI vs CLI workflows
+
+
+
+
+
+📅 Class 4: CRUD Operations – Update & Delete
+
+Topics Covered
+
+updateOne(), updateMany()
+
+Update operators: $set, $inc
+
+deleteOne(), deleteMany()
+
+Hands-On
+
+Update student age and course
+
+Delete records based on conditions
+
+
+
+
+
+
+📅 Class 5: Query Operators & Filtering
+
+Topics Covered
+
+Comparison operators: $gt, $lt, $gte, $lte, $ne
+
+Logical operators: $and, $or, $not
+
+Element operator: $exists
+
+Regular expression (regex) search
+
+Practice
+
+Real-world filtering scenarios (search, range queries)
+
+
+
+
+
+
+
+🔹 WEEK 2 – Advanced MongoDB & Data Design
+
+
+📅 Class 6: Advanced Update Operations
+
+Topics Covered
+
+Updating nested fields
+
+Array operators: $push, $pull, $addToSet
+
+$unset, $mul
+
+Upsert (update or insert)
+
+Hands-On
+
+User profile document with skills array
+
+Prevent duplicate values in arrays
+
+
+
+
+
+📅 Class 7: Data Modeling in MongoDB
+
+Topics Covered
+
+Embedding vs Referencing
+
+One-to-One relationships
+
+One-to-Many relationships
+
+Many-to-Many relationships
+
+Best practices for schema design
+
+Hands-On
+
+Design schemas for:
+
+Users & Orders
+
+Students & Courses
+
+Learning Outcome
+✔ Learners gain industry-level database design skills
+
+
+
+
+
+
+
+📅 Class 8: Aggregation Pipeline – Fundamentals
+
+Topics Covered
+
+Introduction to aggregation framework
+
+$match
+
+$group
+
+$project
+
+$sort, $limit, $skip
+
+Hands-On
+
+Generate reports:
+
+User count by role
+
+Average marks
+
+Total orders per user
+
+
+
+
+
+
+
+
+📅 Class 9: Aggregation Pipeline – Real-World Use Cases
+
+Topics Covered
+
+Multi-stage aggregation pipelines
+
+Dashboard-style data queries
+
+Reporting and analytics use cases
+
+Assignment
+
+Build:
+
+Sales report OR
+
+Student performance analytics
+
+
+
+
+📅 Class 10: Schema Validation & Data Integrity
+
+Topics Covered
+
+Why schema validation is required
+
+JSON Schema rules
+
+Required fields
+
+Data type enforcement & limits
+
+validationLevel & validationAction
+
+Hands-On
+
+Create users collection with validation rules
+
+Test valid vs invalid inserts
+
+
+
+
+
+
+🔹 WEEK 3 – Performance, Transactions & MERN Integration
+
+
+📅 Class 11: Indexing & Performance Optimization
+
+Topics Covered
+
+What is indexing?
+
+Single-field indexes
+
+Compound indexes
+
+Unique indexes
+
+Text indexes
+
+TTL indexes
+
+Query performance analysis using explain()
+
+Hands-On
+
+Create indexes
+
+Compare COLLSCAN vs IXSCAN
+
+
+
+
+
+📅 Class 12: MongoDB Transactions
+
+Topics Covered
+
+What are transactions?
+
+ACID properties
+
+Sessions
+
+Commit & Abort
+
+Transaction limitations and best practices
+
+Hands-On
+
+Bank transfer scenario
+
+Atomic order + payment workflow
+
+
+
+
+
+📅 Class 13: MongoDB Atlas (Cloud Database)
+
+Topics Covered
+
+What is MongoDB Atlas?
+
+Cluster creation
+
+Database users & IP whitelisting
+
+Connection string
+
+Local vs Cloud database comparison
+
+Hands-On
+
+Create Atlas cluster
+
+Connect Atlas with Compass and Node.js
+
+
+
+
+
+📅 Class 14: MongoDB with Node.js & Mongoose
+
+Topics Covered
+
+Introduction to Mongoose ODM
+
+Schema vs Model
+
+Connecting MongoDB with Node.js
+
+CRUD operations using Mongoose
+
+Validation, timestamps, best practices
+
+Hands-On
+
+Build User API using Express + Mongoose
+
+
+
+
+
+📅 Class 15: Mini Project & Final Revision
+
+Mini Project Options
+
+User Management System
+
+Student Management API
+
+Product CRUD with search & filters
+
+Mandatory Requirements
+✔ MongoDB Atlas
+✔ Mongoose ODM
+✔ Schema Validation
+✔ Aggregation Pipeline
+✔ Indexing for performance
